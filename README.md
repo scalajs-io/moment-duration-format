@@ -1,7 +1,7 @@
 moment-duration-format API for Scala.js
 ================================
-[moment-duration-format](https://www.npmjs.com/package/moment-duration-format) - A moment-duration-format library for NodeJS.
-
+[moment-duration-format](https://www.npmjs.com/package/moment-duration-format) - Format plugin for the Moment Duration object.
+                                                                                 
 ### Description
 
 **Format plugin for the Moment Duration object.**
