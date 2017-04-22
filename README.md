@@ -55,7 +55,7 @@ Moment.duration(123, "minutes").format("h:mm") // "2:03"
 To add the `moment-duration-format` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "moment-duration-format" % "0.4.0-pre4"
+libraryDependencies += "io.scalajs.npm" %%% "moment-duration-format" % "0.4.0-pre5"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
