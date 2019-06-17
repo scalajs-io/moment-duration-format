@@ -14,12 +14,12 @@ class MomentDurationFormatTest extends FunSpec {
 
     it("formats durations as times") {
       val duration = Moment.duration(123, "minutes").format()
-      Assert.equal(duration, "2:03")
+      Assert.equal(duration, "2:03:00")
     }
 
     it("formats durations as dates") {
       val duration = Moment.duration(123, "months").format()
-      Assert.equal(duration, "10y 3m")
+      Assert.equal(duration, "10 years, 3 months")
     }
 
     it("formats durations using custom formats") {
